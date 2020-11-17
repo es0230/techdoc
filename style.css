@@ -1,0 +1,17 @@
+big-cont {
+	display: grid;
+	grid-template-areas: 
+	"nav main";
+	grid-template-columns: : 400px auto;
+	grid-template-rows: auto;
+	grid-gap: 30px;
+}
+nav, main {
+	background-color: #aaa;
+}
+nav{
+	grid-area: nav;
+}
+main{
+	grid-area: main;
+}
